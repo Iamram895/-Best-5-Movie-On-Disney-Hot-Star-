@@ -1,13 +1,49 @@
-body {
+*{padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background-color: brown;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movie{
+  display: inline-table;
+  grid-template-rows:10px ;
+  height: 10px;
+  
+  padding-top: 50px;
+  border: black;
+}
+
+.disney{
+  margin-left: 30px;
+  background-color: white;
+  border: black;
+}
+  
+
+.child{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+p{
+  border: aqua ;
+  color: black;
+  width: 10vw;
+  top: 2px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+  margin-top: 5px;
+  font-size: 25px;
+  color:salmon;
+  cursor: pointer;
+}
+h1{
+  color: white;
+  margin-left: 20vw;
+  background-color:palevioletred;
+  width: 30vw;
+  
 }
